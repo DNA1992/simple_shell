@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * main - Simple Shell (Hsh)
- * @argc: Argument Count
- * @argv:Argument Value
- * Return: Exit Value By Status
- */
+*main-Simple Shell hsh
+*@argc:Argument Count
+*@argv:Argument Value
+*Return:Exit Value By Status
+*/
 
 int main(__attribute__((unused)) int argc, char **argv)
 {
