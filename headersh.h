@@ -48,5 +48,5 @@ void get_path(path_node **list_path, char **en);
 int _strcmp(char *s1, char *s2);
 void free_list(path_node *list_path);
 void free_all(char **buffer, char ***tokens);
-int built_ins_sh(char ***tokens, char **en, char **buffer, int *);
+int built_ins_sh(char ***tokens, char **en, char **buffer, int *status);
 #endif
