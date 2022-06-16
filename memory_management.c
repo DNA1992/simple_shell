@@ -6,7 +6,7 @@
 *@new_size: New Size Of The Pointer
 *Return:void
 */
-void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
+void *_realloc(void *ptr, int old_size, int new_size)
 {
 	void *result;
 
