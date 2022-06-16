@@ -1,6 +1,7 @@
 #include "main.h"
 /**
 *_getline - Read The Input By User From Stdin
+*Return: 1 on success, 0 on error
 */
 char *_getline()
 {
@@ -42,13 +43,14 @@ char *_getline()
 	return (buff);
 }
 /**
- * hashtag_handle-remove everything after 
- * @buff: input;
- * Return:void
- */
+*hashtag_handle-remove everything after
+*@buff: input;
+*Return:void
+*/
 void hashtag_handle(char *buff)
 {
 	int i;
+
 	for (i = 0; buff[i] != '\0'; i++)
 	{
 		if (buff[i] == '#')
