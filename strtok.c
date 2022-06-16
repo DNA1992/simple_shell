@@ -50,7 +50,7 @@ char *_strtok(char *str, const char *delim)
 		if (check_delim(nt[x], delim) == 1)
 			break;
 	}
-	if (nt[x] = '\0')
+	if (nt[x] == '\0')
 		nt = NULL;
 	else
 	{
