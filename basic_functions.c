@@ -83,10 +83,9 @@ int _atoi(char *s)
 }
 
 /**
- * _puts - prints a string
- * @str: pointer to the string
- * Return: void
- */
+*_puts - prints a string
+*@str: pointer to the string
+*/
 
 void _puts(char *str)
 {
