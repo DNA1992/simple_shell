@@ -50,14 +50,12 @@ char *_strcat(char *dest, char *src)
 */
 char *_strchr(char *s, char c)
 {
-	do
-	{
+	do {
 		if (*s == c)
 		{
 			break;
 		}
-	}
-	while (*s++);
+	} while (*s++);
 	return (s);
 }
 /**
